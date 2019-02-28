@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
-import Home from './Home';
-import Personal from './Personal';
-import Academic from './Academic';
-import Learning from './Learning';
+import data from './data.js';
+import Menu from './Menu.js';
+import Main from './Main.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Home />
-        <Personal />
-        <Academic />
-        <Learning />
+        <h1>{ data.title }</h1>
+        <Menu categories={data.categories} />
+        <Main categories={data.categories} />
       </div>
     );
   }

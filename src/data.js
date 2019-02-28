@@ -130,6 +130,15 @@ export default {
             },
           ],
         },
+        {
+          title: "Compétences Salesforce",
+          picture: "./trailhead.png",
+          button: {
+            title: "Voir mon profil",
+            url: "trailhead.salesforce.com/fr/me/0052J000008ahBlQAI",
+          },
+          content: "Trailhead permet d’acquérir ou d’approfondir des compétences Salesforce, plateforme n° 1 de solutions de gestion de la relation client (CRM).",
+        },
       ],
     },
   ],
