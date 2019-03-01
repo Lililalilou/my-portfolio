@@ -9,7 +9,9 @@ class Section extends Component {
         {section.title && (
           <h4>{section.title}</h4>
         )}
-        {/* picture */}
+        {section.picture && (
+          <img src={section.picture.src} alt={section.picture.alt}/>
+        )}
         {section.content && (
           <p>{section.content}</p>
         )}
