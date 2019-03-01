@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
+import { sanitize } from './sanitize';
 
 class Menu extends Component {
   render() {
     const { categories } = this.props;
-    console.log(categories[0].title);
     return (
       <ul>
         {categories.map(category => (
-          <li key={category.title}>{category.title}</li>
+          <li key={category.title}>
+            <a href={`#${sanitize(category.title)}`}>{category.title}</a>
+          </li>
         ))}
       </ul>
     );
