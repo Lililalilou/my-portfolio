@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import data from './data.js';
-import Menu from './Menu.js';
-import Main from './Main.js';
+import data from './data';
+import Menu from './Menu';
+import Main from './Main';
+import './App.scss';
 
 class App extends Component {
   render() {

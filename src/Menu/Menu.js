@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { sanitize } from './sanitize';
+import { sanitize } from '../sanitize';
 
 class Menu extends Component {
   render() {
     const { categories } = this.props;
     return (
-      <ul>
+      <ul className="menu">
         {categories.map(category => (
           <li key={category.title}>
             <a href={`#${sanitize(category.title)}`}>{category.title}</a>
