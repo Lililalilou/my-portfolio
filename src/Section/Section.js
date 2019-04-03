@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Subsection from './Subsection.js';
+import Subsection from '../Subsection.js';
 
 class Section extends Component {
   render() {

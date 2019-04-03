@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Section from './Section.js';
+import Section from './Section';
 
 class SectionsContainer extends Component {
   render() {

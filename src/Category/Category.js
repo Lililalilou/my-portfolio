@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import SectionsContainer from './SectionsContainer';
-import { sanitize } from './sanitize';
+import SectionsContainer from '../SectionsContainer';
+import { sanitize } from '../sanitize';
 
 class Category extends Component {
   render() {
