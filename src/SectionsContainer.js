@@ -5,7 +5,7 @@ class SectionsContainer extends Component {
   render() {
     const { sections } = this.props;
     return (
-      <div>
+      <div className="sectionsContainer">
         {sections.map((section, id) => (
           <Section key={id} section={section} />
         ))}

@@ -7,8 +7,8 @@ class Menu extends Component {
     return (
       <ul className="menu">
         {categories.map(category => (
-          <li key={category.title}>
-            <a href={`#${sanitize(category.title)}`}>{category.title}</a>
+          <li className="menu__entry" key={category.title}>
+            <a className="menu__link" href={`#${sanitize(category.title)}`}>{category.title}</a>
           </li>
         ))}
       </ul>

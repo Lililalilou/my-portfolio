@@ -4,10 +4,10 @@ class Subsection extends Component {
   render() {
     const { subsection } = this.props;
     return (
-      <div>
-        <h4>{subsection.title}</h4>
+      <div className="subsection">
+        <h4 className="subsection__title">{subsection.title}</h4>
         {subsection.content && (
-          <div>{subsection.content}</div>
+          <div className="subsection__content">{subsection.content}</div>
         )}
       </div>
     );

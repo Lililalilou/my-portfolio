@@ -7,13 +7,13 @@ class Category extends Component {
     const { category } = this.props;
 
     return (
-      <section id={sanitize(category.title)} >
-        <h2>{category.title}</h2>
+      <section className="category" id={sanitize(category.title)} >
+        <h2 className="category__title">{category.title}</h2>
         {category.subtitle && (
-          <div>{category.subtitle}</div>
+          <div className="category__subtitle">{category.subtitle}</div>
         )}
         {category.content && (
-          <div>{category.content}</div>
+          <div className="category__content">{category.content}</div>
         )}
         {category.sections && (
           <SectionsContainer sections={category.sections} />

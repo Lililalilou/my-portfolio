@@ -1,22 +1,22 @@
 @import '../variables.scss';
 
-section {
-  width: 100%;
-  position: relative;
-  margin-bottom: 50px;
-}
-h4 {
-  color: $color-secondary;
-}
-img {
-  width: 260px;
-  height: 260px;
-  padding: 10px;
-}
-p {
-  color: $color-dark;
-  font-size: 18px;
-}
-button {
+.section {
+  &__title {
+    color: $color-secondary;
+  }
 
+  &__picture {
+    width: 260px;
+    height: 260px;
+    padding: 10px;
+  }
+
+  &__content {
+    color: $color-dark;
+    font-size: 18px;
+  }
+  
+  &__button {
+  
+  }
 }

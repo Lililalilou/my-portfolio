@@ -1,22 +1,21 @@
 @import '../variables.scss';
 
 .menu {
-  width: 100%;
   background-color: $color-primary;
-}
-ul {
-  margin: 0;
-  padding: 0;
-  float: right;
-}
-li {
-  display: inline;
-}
-a {
-  font-size: 15px;
-  float: right;
-  text-decoration: none;
-	color: $color-light;
-	padding: 10.5px 11px;
-	background-color: $color-dark;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  text-align: right;
+
+  &__entry {
+    display: inline-block;
+  }
+
+  &__link {
+    font-size: 15px;
+    text-decoration: none;
+    color: $color-light;
+    padding: 10px 11px;
+    background-color: $color-secondary;
+  }
 }
