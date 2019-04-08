@@ -3,8 +3,6 @@
 .menu {
   background-color: $color-primary;
   list-style-type: none;
-  margin:0;
-  padding:0;
   text-align: right;
 
   &__entry {
@@ -16,6 +14,7 @@
     text-decoration: none;
     color: $color-light;
     padding: 10px 11px;
+    vertical-align: middle;
     background-color: $color-secondary;
   }
 }

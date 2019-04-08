@@ -1,7 +1,6 @@
 @import './variables.scss';
 
 .app {
-  background-color: $color-light;
-  box-sizing: border-box;
-  max-width: 1200px;
+  width: 970px;
+  margin: 0 auto;
 }
