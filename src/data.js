@@ -19,7 +19,7 @@ export default {
         {
           title: "Adaptation d'un player en flash",
           picture: {
-            src: "./player.png",
+            src: "./images/player.png",
             alt: "Capture d'écran du player source (VIP).",
           },
           content: "Objectif : récupérer les données d'une playlist, les afficher et pouvoir jouer un morceau lorsqu'on clique dessus. Projet réalisé en JavaScript (ES6) avec ReactJS, Webpack, Axios",
@@ -27,7 +27,7 @@ export default {
         {
           title: "Création d'un puzzle game",
           picture: {
-            src: "./puzzle-game.png",
+            src: "./images/puzzle-game.png",
             alt: "Zoom sur la grille du jeu.",
           },
           content: "Objectif : afficher et mettre à jour une grille d'éléments de couleurs différentes, pouvoir réaliser des combinaisons d'éléments avec des échanges de cases, délimités par des règles simples de jeu et pouvoir comptabiliser des points en fonction des types de combinaisons. Projet réalisé en JavaScript (ES6) avec Vue.js . Application créée avec create-vue-app.",
@@ -35,7 +35,7 @@ export default {
         {
           title: "Développement d'une application de lettering",
           picture: {
-            src: "./lettering.png",
+            src: "./images/lettering.png",
             alt: "Capture d'écran de l'application.",
           },
           content: "Objectif : afficher une liste de polices de caractères sélectionnables et pour chacune les différents types de graisse disponibles, proposer des templates de texte et un rendu imprimable. Projet réalisé en JavaScript (ES6) avec Vue.js, Axios, SASS. Application créée avec create-vue-app.",
@@ -48,7 +48,7 @@ export default {
         {
           title: "Intégrer un thème Wordpress pour un client",
           picture: {
-            src: "./agence.png",
+            src: "./images/agence.png",
             alt: "Page d'accueil du site.",
           },
           button: {
@@ -60,7 +60,7 @@ export default {
         {
           title: "Analyser les besoins d'un client",
           picture: {
-            src: "./festival.png",
+            src: "./images/festival.png",
             alt: "Page d'accueil du site.",
           },
           button: {
@@ -72,7 +72,7 @@ export default {
         {
           title: "Concevoir la solution technique d'une application de restauration en ligne",
           picture: {
-            src: "./express-food.png",
+            src: "./images/express-food.png",
             alt: "Exemples de schémas et digrammes réalisés.",
           },
           content: "Réaliser des schémas UML cohérents et en accord avec les besoins énoncés. Concevoir l’architecture technique d’une application à l’aide de diagrammes UML. Implémenter le schéma de données dans la base. Réaliser un schéma de conception de la base de données de l’application.",
@@ -80,7 +80,7 @@ export default {
         {
           title: "Imaginer un générateur de citations",
           picture: {
-            src: "./generateur.png",
+            src: "./images/generateur.png",
             alt: "Partie de code Javascript.",
           },
           content: "Concevoir un algorithme pour répondre à un cahier des charges. Mettre en oeuvre la syntaxe de JavaScript dans un programme.",
@@ -88,7 +88,7 @@ export default {
         {
           title: "Créez un jeu de plateau tour par tour en JS",
           picture: {
-            src: "./jeu.png",
+            src: "./images/jeu.png",
             alt: "Zoom sur le plateau de jeu.",
           },
           button: {
@@ -100,7 +100,7 @@ export default {
         {
           title: "Lancer mon propre site d'avis de restaurants",
           picture: {
-            src: "./app-resto.png",
+            src: "./images/app-resto.png",
             alt: "Capture d'écran de l'application.",
           },
           content: "Développer une application JavaScript complète en respectant un cahier des charges. Utiliser une API externe en JavaScript.",
@@ -108,7 +108,7 @@ export default {
         {
           title: "Reprendre et améliorer un projet existant",
           picture: {
-            src: "./app-todo.png",
+            src: "./images/app-todo.png",
             alt: "Schéma des classes de l'application TodoList.",
           },
           content: "Mettre en oeuvre des tests unitaires et fonctionnels dans une application web. Optimiser les performances d'un projet à l'aide des DevTools. Reprendre en main un projet JavaScript existant.",
@@ -116,7 +116,7 @@ export default {
         {
           title: "Construire une veille technologique",
           picture: {
-            src: "./dashboard.png",
+            src: "./images/dashboard.png",
             alt: "Capture d'écran de tableau de bord.",
           },
           content: "Mettre en place un tableau de bord de veille technologique. Sélectionner des sources d’information pertinentes pour un certain ensemble de technologies.",
@@ -130,7 +130,7 @@ export default {
         {
           title: "Intégration et développement Front-end",
           picture: {
-            src: "./code-cademy.png",
+            src: "./images/code-cademy.png",
             alt: "Logo du site code-cademy.",
           },
           button: {
@@ -142,7 +142,7 @@ export default {
         {
           title: "Marketing numérique",
           picture: {
-            src: "./google-ateliers.png",
+            src: "./images/google-ateliers.png",
             alt: "Logo de Google Ateliers numériques.",
           },
           button: {
@@ -153,7 +153,7 @@ export default {
         },
         {
           picture: {
-            src: "./openclassrooms.png",
+            src: "./images/openclassrooms.png",
             alt: "Logo du site Openclassrooms.",
           },
           button: {
@@ -178,7 +178,7 @@ export default {
         {
           title: "Compétences Salesforce",
           picture: {
-            src: "./trailhead.png",
+            src: "./images/trailhead.png",
             alt: "Logo de la plateforme Trailhead.",
           },
           button: {
