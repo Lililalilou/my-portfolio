@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Subsection from '../Subsection.js';
+import LabelsContainer from '../LabelsContainer.js';
 
 class Section extends Component {
   render() {
@@ -14,6 +15,9 @@ class Section extends Component {
         )}
         {section.content && (
           <p className="section__content">{section.content}</p>
+        )}
+        {section.labels && (
+          <LabelsContainer labels={section.labels} />
         )}
         {section.button && (
           <button className="section__button">{section.button.title}</button>

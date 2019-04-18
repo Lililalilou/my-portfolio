@@ -1,0 +1,15 @@
+@import './variables.scss';
+
+.buttonsContainer {
+  color: $color-light;
+  list-style-type: none;
+  margin: $spacing-heavy auto;
+  text-align: center;
+
+  &__entry {
+    display: inline-block;
+    background-color: $color-primary;
+    margin: 0 $spacing-light;
+    padding: $spacing-light $spacing-light;
+  }
+}

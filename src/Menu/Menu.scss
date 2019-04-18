@@ -1,20 +1,23 @@
 @import '../variables.scss';
 
 .menu {
-  background-color: $color-primary;
+  background-color: $color-light;
   list-style-type: none;
-  text-align: right;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  padding-inline-start: 0;
 
   &__entry {
     display: inline-block;
+    padding: $spacing-light $spacing-medium;
+    margin: 0 auto;
   }
 
   &__link {
-    font-size: 15px;
+    color: $color-dark;
     text-decoration: none;
-    color: $color-light;
-    padding: 10px 11px;
     vertical-align: middle;
-    background-color: $color-secondary;
   }
 }

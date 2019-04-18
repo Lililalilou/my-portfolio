@@ -1,21 +1,26 @@
 @import '../variables.scss';
 
 .section {
+
   &__title {
-    color: $color-secondary;
+    font-size: 24px;
+    color: $color-primary;
   }
 
   &__picture {
-    width: 300px;
-    height: 200px;
+    width: 30%;
+    height: 20%;
   }
 
   &__content {
     color: $color-dark;
-    font-size: 18px;
   }
 
   &__button {
-  
+    background-color: $color-primary;
+    color: $color-light;
+    font-size: 16px;
+    border-radius: 2px;
+    padding: 10px 20px;
   }
 }

@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
 import data from './data';
-import Title from './Title';
+import Header from './Header';
 import Menu from './Menu';
 import Main from './Main';
+import Footer from './Footer';
 import './App.scss';
 
 class App extends Component {
   render() {
     return (
       <div className="app">
-        <Title title={ data.title }/>
+        <Header personalData={ data.personalData }/>
         <Menu categories={data.categories} />
         <Main categories={data.categories} />
+        <Footer personalData={ data.personalData }/>
       </div>
     );
   }

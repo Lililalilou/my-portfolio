@@ -1,9 +1,25 @@
 export default {
-  title: "Portfolio de Nelly Martin",
+  personalData: {
+    site: "Portfolio",
+    name: "Nelly Martin",
+    email: "nelly.m@rtin.tech",
+    phone: "0662798268",
+  },
   categories: [
     {
       title: "Présentation",
       content: "Pourquoi une reconversion professionnelle dans le numérique ? Attirée depuis plusieurs années par ce domaine en constante évolution, j'ai envisagé de travailler dans la communication digitale et le marketing numérique. Aujourd'hui, je souhaite m'orienter vers la gestion de projet ou vers un emploi plus technique dans le développement.",
+      labels: ["Javascript", "React", "Vue.js", "HTML", "CSS", "SCSS", "Wordpress", "Photoshop"],
+      buttons: [
+        {
+          title: "Voir mon profil LinkedIn",
+          url: "https://www.linkedin.com/in/nelly-martin-1a3bb8b1/",
+        },
+        {
+          title: "Voir mon profil Github",
+          url: "https://github.com/Lililalilou",
+        },
+      ],
     },
     {
       title: "Projets personnels",
@@ -15,6 +31,7 @@ export default {
             alt: "Page d'accueil du site de l'association.",
           },
           content: "Pour l’association sportive Teamfitness (95), l’objectif était de proposer plusieurs conventions sportives (série de plusieurs sessions de cours collectifs) dans l’année, accessibles au plus grand nombre de passionnés et avec des cours/prestations de qualité. La communication autour de chaque événement était essentielle. Il fallait également assurer pour le jour J toute la logistique et l’accueil des participants. Après chaque convention, l'équipe réalisait un feedback, avec remerciements et publications de photos et vidéos. Le nombre de participants n’a jamais cessé de grandir durant les trois ans de cette aventure. Au cours de cette expérience, j’ai acquis la connaissance d'outils comme Photoshop. Ce que j’ai su faire : créer un logo pour l’association, une maquette pour un site, réaliser des flyers, diffuser sur les réseaux sociaux des montages photos/vidéos.",
+          labels: ["HTML", "CSS"],
         },
         {
           title: "Adaptation d'un player en flash",
@@ -23,6 +40,7 @@ export default {
             alt: "Capture d'écran du player source (VIP).",
           },
           content: "Objectif : récupérer les données d'une playlist, les afficher et pouvoir jouer un morceau lorsqu'on clique dessus. Projet réalisé en JavaScript (ES6) avec ReactJS, Webpack, Axios",
+          labels: ["ES6", "Axios", "Webpack"],
         },
         {
           title: "Création d'un puzzle game",

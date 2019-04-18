@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Subsection.scss';
 
 class Subsection extends Component {
   render() {

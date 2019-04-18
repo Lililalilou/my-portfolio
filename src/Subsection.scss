@@ -1,7 +1,11 @@
-@import '../variables.scss';
+@import './variables.scss';
 
 .subsection {
+  
+
   &__title {
+    font-size: 18px;
+    color: $color-primary;
   }
 
   &__content {

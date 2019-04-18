@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import SectionsContainer from '../SectionsContainer';
+import LabelsContainer from '../LabelsContainer';
+import ButtonsContainer from '../ButtonsContainer';
 import { sanitize } from '../sanitize';
 
 class Category extends Component {
@@ -14,6 +16,12 @@ class Category extends Component {
         )}
         {category.content && (
           <div className="category__content">{category.content}</div>
+        )}
+        {category.labels && (
+          <LabelsContainer labels={category.labels} />
+        )}
+        {category.buttons && (
+          <ButtonsContainer buttons={category.buttons} />
         )}
         {category.sections && (
           <SectionsContainer sections={category.sections} />
