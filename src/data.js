@@ -3,7 +3,7 @@ export default {
     site: "Portfolio",
     name: "Nelly Martin",
     email: "nelly.m@rtin.tech",
-    phone: "0662798268",
+    phone: "06 62 79 82 68",
   },
   categories: [
     {

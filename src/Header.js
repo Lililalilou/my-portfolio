@@ -7,9 +7,9 @@ class Header extends Component {
     return (
       <div className="header">
         <div className="header__left">
-          <span>{personalData.site}</span>
+          <h2 className="header__left__site">{personalData.site}</h2>
           <br/>
-          <span>{personalData.name}</span>
+          <h1 className="header__left__name">{personalData.name}</h1>
         </div>
         <div className="header__right">
           <span>{personalData.email}</span>

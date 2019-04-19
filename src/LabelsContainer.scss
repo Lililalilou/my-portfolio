@@ -10,6 +10,7 @@
   &__entry {
     display: inline-block;
     border: 2px solid $color-primary;
+    border-radius: 4px;
     margin: 0 $spacing-light;
     padding: $spacing-light $spacing-light;
   }
