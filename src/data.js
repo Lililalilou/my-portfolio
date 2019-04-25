@@ -1,12 +1,7 @@
 export default {
-  personalData: {
-    site: "Portfolio",
-    name: "Nelly Martin",
-    email: "nelly.m@rtin.tech",
-    phone: "06 62 79 82 68",
-  },
   categories: [
     {
+      type: "about",
       title: "Présentation",
       content: "Pourquoi une reconversion professionnelle dans le numérique ? Attirée depuis plusieurs années par ce domaine en constante évolution, j'ai envisagé de travailler dans la communication digitale et le marketing numérique. Aujourd'hui, je souhaite m'orienter vers la gestion de projet ou vers un emploi plus technique dans le développement.",
       labels: ["Javascript", "React", "Vue.js", "HTML", "CSS", "SCSS", "Wordpress", "Photoshop"],
@@ -22,6 +17,7 @@ export default {
       ],
     },
     {
+      type: "works",
       title: "Projets personnels",
       sections: [
         {
@@ -61,6 +57,7 @@ export default {
       ],
     },
     {
+      type: "works",
       title: "Projets académiques",
       sections: [
         {
@@ -142,6 +139,7 @@ export default {
       ],
     },
     {
+      type: "learning",
       title: "MOOCs",
       subtitle: "Ici sont regroupées les plateformes d'apprentissage en ligne fréquentées. Pour chaque thème, je dresse une liste des principaux centres d'intérêt.",
       sections: [
@@ -206,6 +204,16 @@ export default {
           content: "Trailhead permet d’acquérir ou d’approfondir des compétences Salesforce, plateforme n° 1 de solutions de gestion de la relation client (CRM).",
         },
       ],
+    },
+    {
+      type: "contact",
+      title: "Contactez-moi!",
+      personalData: {
+        site: "Portfolio",
+        name: "Nelly Martin",
+        email: "nelly.m@rtin.tech",
+        phone: "06 62 79 82 68",
+      },
     },
   ],
 };

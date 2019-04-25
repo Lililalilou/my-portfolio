@@ -6,7 +6,7 @@ class Header extends Component {
     const { personalData } = this.props;
     return (
       <div className="header">
-        <div className="header__left">
+        {/* <div className="header__left">
           <h2 className="header__left__site">{personalData.site}</h2>
           <br/>
           <h1 className="header__left__name">{personalData.name}</h1>
@@ -15,7 +15,7 @@ class Header extends Component {
           <span>{personalData.email}</span>
           <br/>
           <span>{personalData.phone}</span>
-        </div>
+        </div> */}
       </div>
     );
   }
