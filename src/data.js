@@ -91,6 +91,7 @@ export default {
             alt: "Exemples de schémas et digrammes réalisés.",
           },
           content: "Réaliser des schémas UML cohérents et en accord avec les besoins énoncés. Concevoir l’architecture technique d’une application à l’aide de diagrammes UML. Implémenter le schéma de données dans la base. Réaliser un schéma de conception de la base de données de l’application.",
+          labels: ["Javascript", "React"],
         },
         {
           title: "Imaginer un générateur de citations",
@@ -168,6 +169,7 @@ export default {
           content: "Le développement de la présence en ligne. Les moteurs de recherche et le SEO. L'analyse d'audience et de comportement des utilisateurs. La publicité display. Le marketing par mail. Les médias sociaux. Le marketing de contenu.",
         },
         {
+          type: "book",
           picture: {
             src: "./images/openclassrooms.png",
             alt: "Logo du site Openclassrooms.",

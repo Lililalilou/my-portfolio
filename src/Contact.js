@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Contact.scss';
 //import data from './data';
 
 class Contact extends Component {
@@ -6,7 +7,10 @@ class Contact extends Component {
     const { category } = this.props;
     return (
       <div className="contact">
-        {category.title}
+        <div className="contact__content">
+          <p>Par mail : {category.personalData.mail}</p>
+          <p>Par téléphone : {category.personalData.phone}</p>
+        </div>
       </div>
     );
   }

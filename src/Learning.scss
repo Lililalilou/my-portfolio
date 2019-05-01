@@ -1,0 +1,9 @@
+@import './variables.scss';
+
+.learning {
+  &__subtitle {
+    width: 80%;
+    margin: $spacing-medium auto;
+    font-style: italic;
+  }
+}

@@ -1,0 +1,29 @@
+@import './variables.scss';
+
+.about {
+  &__content {
+    margin: $spacing-medium auto;
+  }
+
+  &__options {
+    text-align: center;
+  }
+
+  &__label {
+    display: inline-block;
+    color: $color-primary;
+    border: 2px solid $color-primary;
+    border-radius: 4px;
+    margin: 0 $spacing-light;
+    padding: $spacing-light $spacing-light;
+  }
+
+  &__button {
+    background-color: $color-primary;
+    color: $color-light;
+    font-size: 16px;
+    margin: $spacing-medium $spacing-light;
+    padding: $spacing-light $spacing-medium;
+    border-radius: 6px;
+  }
+}

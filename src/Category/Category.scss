@@ -15,15 +15,8 @@
     color: $color-primary;
     font-size: 36px;
   }
-
-  &__subtitle {
-    width: 80%;
-    margin: $spacing-medium auto;
-    font-style: italic;
-  }
-
+  
   &__content {
-    width: 80%;
     margin: $spacing-medium auto;
   }
 }

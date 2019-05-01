@@ -1,0 +1,8 @@
+@import './variables.scss';
+
+.contact {
+  &__content {
+    width: 30%;
+    margin: $spacing-medium auto;
+  }
+}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SectionsContainer from '../SectionsContainer';
+//import SectionsContainer from '../SectionsContainer';
 //import LabelsContainer from '../LabelsContainer';
 //import Label from '../Label';
 //import ButtonsContainer from '../ButtonsContainer';

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Card from './Card';
 //import data from './data';
 
 class Works extends Component {
@@ -6,7 +7,9 @@ class Works extends Component {
     const { category } = this.props;
     return (
       <div className="works">
-        {category.title}
+        {category.sections.map(section => (
+          <Card key={section.title} section={section} />
+        ))}
       </div>
     );
   }

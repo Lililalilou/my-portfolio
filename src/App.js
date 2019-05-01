@@ -3,7 +3,6 @@ import data from './data';
 import Header from './Header';
 import Menu from './Menu';
 import Main from './Main';
-//import Footer from './Footer';
 import './App.scss';
 
 class App extends Component {
@@ -14,7 +13,6 @@ class App extends Component {
           <Header />
           <Menu categories={data.categories} />
           <Main categories={data.categories} />
-          {/* <Footer personalData={ data.personalData }/> */}
         </div>
       </div>
     );
