@@ -145,7 +145,6 @@ export default {
       subtitle: "Ici sont regroupées les plateformes d'apprentissage en ligne fréquentées. Pour chaque thème, je dresse une liste des principaux centres d'intérêt.",
       sections: [
         {
-          title: "Intégration et développement Front-end",
           picture: {
             src: "./images/code-cademy.png",
             alt: "Logo du site code-cademy.",
@@ -154,10 +153,18 @@ export default {
             title: "Voir mon profil",
             url: "codecademy.com/Lililalilou",
           },
-          content: "Développement d’applications et d’outils javascript. Intégration responsive de maquettes. Initiation aux frameworks Javascript (React) et CSS (Bootstrap). Initiation à la ligne de commande et Git.",
+          subsections: [
+            {
+              title: "Intégration",
+              content: "Intégration responsive de maquettes.",
+            },
+            {
+              title: "Développement Front-end",
+              content: "Initiation à la ligne de commande et Git. Développement d’applications et d’outils javascript. Initiation aux frameworks Javascript (React) et CSS (Bootstrap).",
+            },
+          ],
         },
         {
-          title: "Marketing numérique",
           picture: {
             src: "./images/google-ateliers.png",
             alt: "Logo de Google Ateliers numériques.",
@@ -166,10 +173,18 @@ export default {
             title: "Voir la certification",
             url: "docs.google.com/document/d/1cdmogyCQQWOyBnAScXewZBt4f9fl3luKVb44UDj9rbw/edit",
           },
-          content: "Le développement de la présence en ligne. Les moteurs de recherche et le SEO. L'analyse d'audience et de comportement des utilisateurs. La publicité display. Le marketing par mail. Les médias sociaux. Le marketing de contenu.",
+          subsections: [
+            {
+              title: "Marketing numérique",
+              content: "La publicité display. Le marketing par mail. Les médias sociaux. Le marketing de contenu. Le développement de la présence en ligne. L'analyse d'audience et de comportement des utilisateurs.",
+            },
+            {
+              title: "SEO",
+              content: "Les moteurs de recherche et le SEO.",
+            },
+          ],
         },
         {
-          type: "book",
           picture: {
             src: "./images/openclassrooms.png",
             alt: "Logo du site Openclassrooms.",
@@ -194,7 +209,6 @@ export default {
           ],
         },
         {
-          title: "Compétences Salesforce",
           picture: {
             src: "./images/trailhead.png",
             alt: "Logo de la plateforme Trailhead.",
@@ -203,7 +217,20 @@ export default {
             title: "Voir mon profil",
             url: "trailhead.salesforce.com/fr/me/0052J000008ahBlQAI",
           },
-          content: "Trailhead permet d’acquérir ou d’approfondir des compétences Salesforce, plateforme n° 1 de solutions de gestion de la relation client (CRM).",
+          subsections: [
+            {
+              title: "Général",
+              content: "Réaliser un cahier des charges.",
+            },
+            {
+              title: "Apex",
+              content: "Gestion du code avec Git et GitHub. Analyse logicielle avec UML.",
+            },
+            {
+              title: "Intégration",
+              content: "Veille informationnelle. Référencement naturel.",
+            },
+          ],
         },
       ],
     },

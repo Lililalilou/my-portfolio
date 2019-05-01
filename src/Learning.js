@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Card from './Card';
+import SmallCard from './SmallCard';
 import './Learning.scss';
 //import data from './data';
 
@@ -12,7 +12,7 @@ class Learning extends Component {
           <div className="learning__subtitle">{category.subtitle}</div>
         )}
         {category.sections.map(section => (
-          <Card key={section.title} section={section} />
+          <SmallCard key={section.title} section={section} />
         ))}
       </div>
     );

@@ -1,0 +1,43 @@
+@import './variables.scss';
+
+.smallCard {
+  margin: $spacing-heavy auto;
+  display: flex;
+
+  &__aside {
+    width: 20%;
+  }
+
+  &__image {
+    img {
+      width: 160px;
+      height: 70px;
+    }
+  }
+
+  &__body {
+    color: $color-dark;
+    width: 80%;
+  }
+
+  &__theme {
+    margin: $spacing-medium 0;
+  }
+
+  &__theme-title {
+    font-size: 24px;
+    color: $color-primary;
+  }
+
+  &__theme-content {
+    margin: $spacing-light 0;
+  }
+
+  &__button {
+    background-color: $color-primary;
+    color: $color-light;
+    font-size: 16px;
+    padding: $spacing-light $spacing-medium;
+    border-radius: 6px;
+  }
+}
