@@ -5,19 +5,19 @@
   display: flex;
 
   &__aside {
-    width: 20%;
+    width: 30%;
   }
 
   &__image {
     img {
-      max-width: 180px;
+      max-width: 250px;
       height: 70px;
     }
   }
 
   &__body {
     color: $color-dark;
-    width: 80%;
+    width: 70%;
   }
 
   &__theme {

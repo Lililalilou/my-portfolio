@@ -20,9 +20,9 @@ class SmallCard extends Component {
                 <div className="smallCard__theme-title">{subsection.title}</div>
                 <ul className="smallCard__theme-content">
                   {/* {subsection.content} */}
-                  {subsection.content.map(contentElement => (
+                  {subsection.list.map(listElement => (
                     <li>
-                      {contentElement}
+                      {listElement}
                     </li>
                   ))}
                 </ul>

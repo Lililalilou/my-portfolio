@@ -18,7 +18,14 @@ class Card extends Component {
           </div>
 
           <div className="card__content">
-            {section.content}
+            {section.content && section.content.split('\n').map((value) => (
+              <p>{value}</p>
+            ))}
+            {section.list && section.list.map(listElement => (
+                    <li>
+                      {listElement}
+                    </li>
+                  ))}
           </div>
 
           <div className="card__options">
@@ -30,12 +37,12 @@ class Card extends Component {
               <div className="card__label">{label}</div>
             ))}
 
-            {section.subsections && section.subsections.map(subsection => (
+            {/* {section.subsections && section.subsections.map(subsection => (
               <div>
                 <div>{subsection.title}</div>
                 <div>{subsection.content}</div>
               </div>
-            ))}
+            ))} */}
           </div>
         </div>
 
