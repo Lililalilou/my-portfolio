@@ -27,7 +27,7 @@ export default {
             alt: "Page d'accueil du site de l'association.",
           },
           content: "Pour l’association sportive Teamfitness (95), l’objectif était de proposer plusieurs conventions sportives (série de plusieurs sessions de cours collectifs) dans l’année, accessibles au plus grand nombre de passionnés et avec des cours/prestations de qualité. La communication autour de chaque événement était essentielle. Il fallait également assurer pour le jour J toute la logistique et l’accueil des participants. Après chaque convention, l'équipe réalisait un feedback, avec remerciements et publications de photos et vidéos. Le nombre de participants n’a jamais cessé de grandir durant les trois ans de cette aventure. \nAu cours de cette expérience, j’ai acquis la connaissance d'outils comme Photoshop. Ce que j’ai su faire : créer un logo pour l’association, une maquette pour un site, réaliser des flyers, diffuser sur les réseaux sociaux des montages photos/vidéos.",
-          labels: ["HTML", "CSS"],
+          labels: ["HTML", "CSS", "Photoshop",],
         },
         {
           title: "Adaptation d'un player en flash",
@@ -45,6 +45,7 @@ export default {
             alt: "Zoom sur la grille du jeu.",
           },
           content: "Objectif : afficher et mettre à jour une grille d'éléments de couleurs différentes, pouvoir réaliser des combinaisons d'éléments avec des échanges de cases, délimités par des règles simples de jeu et pouvoir comptabiliser des points en fonction des types de combinaisons. \nProjet réalisé en JavaScript (ES6) avec Vue.js . Application créée avec create-vue-app.",
+          labels: ["Vue.js",],
         },
         {
           title: "Développement d'une application de lettering",
@@ -53,6 +54,7 @@ export default {
             alt: "Capture d'écran de l'application.",
           },
           content: "Objectif : afficher une liste de polices de caractères sélectionnables et pour chacune les différents types de graisse disponibles, proposer des templates de texte et un rendu imprimable. \nProjet réalisé en JavaScript (ES6) avec Vue.js, Axios, SASS. Application créée avec create-vue-app.",
+          labels: ["Vue.js", "Axios", "SASS",],
         },
       ],
     },
@@ -75,6 +77,7 @@ export default {
             "Rédiger une documentation à l'intention d'utilisateurs non spécialistes.",
             "Sélectionner un thème Wordpress adapté aux besoins du client.",
           ],
+          labels: ["Wordpress",],
         },
         {
           title: "Analyser les besoins d'un client",
@@ -92,6 +95,7 @@ export default {
             "Rédiger les spécifications détaillées du projet.",
             "Choisir une solution technique adaptée parmi les solutions existantes si cela est pertinent.",
           ],
+          labels: ["jQuery", "Bootstrap",],
         },
         {
           title: "Concevoir la solution technique d'une application de restauration en ligne",
@@ -105,7 +109,7 @@ export default {
             "Implémenter le schéma de données dans la base.",
             "Réaliser un schéma de conception de la base de données de l’application.",
           ],
-          labels: ["Javascript", "React"],
+          labels: ["UML", "MySQL"],
         },
         {
           title: "Imaginer un générateur de citations",
@@ -117,6 +121,7 @@ export default {
             "Concevoir un algorithme pour répondre à un cahier des charges.",
             "Mettre en oeuvre la syntaxe de JavaScript dans un programme.",
           ],
+          labels: ["Javascript",],
         },
         {
           title: "Créez un jeu de plateau tour par tour en JS",
@@ -133,6 +138,7 @@ export default {
             "Développer une application JavaScript orientée objet.",
             "Mettre en oeuvre la bibliothèque jQuery dans une application web.",
           ],
+          labels: ["Javascript",],
         },
         {
           title: "Lancer mon propre site d'avis de restaurants",
@@ -144,6 +150,7 @@ export default {
             "Développer une application JavaScript complète en respectant un cahier des charges.",
             "Utiliser une API externe en JavaScript.",
           ],
+          labels: ["Javascript",],
         },
         {
           title: "Reprendre et améliorer un projet existant",
@@ -156,6 +163,7 @@ export default {
             "Optimiser les performances d'un projet à l'aide des DevTools.",
             "Reprendre en main un projet JavaScript existant.",
           ],
+          labels: ["DevTools",],
         },
         {
           title: "Construire une veille technologique",
@@ -276,21 +284,24 @@ export default {
           subsections: [
             {
               title: "Général",
-              list: ["Réaliser un cahier des charges.", ],
+              list: [
+                "Scrum et Kanban chez Salesforce.",
+                "Ecosystème Salesforce.",
+                "Stratégies de l'allié de l’égalité",
+            ],
             },
             {
               title: "Apex",
               list: [
-                "Gestion du code avec Git et GitHub.",
-                "Analyse logicielle avec UML.",
+                "Concepts Apex et manipulation de données.",
+                "Bases de la Developer Console.",
               ], 
             },
             {
               title: "Intégration",
               list: [
-                "Conception de site web avec HTML5 et CSS3, avec PHP et MySQL.",
-                "Les solutions CMS, notamment WordPress.",
-                "Intégration de maquettes.",
+                "Concepts de base du développement de la plate-forme.",
+                "Avantages du développement avec des APIs.",
               ], 
             },
           ],
