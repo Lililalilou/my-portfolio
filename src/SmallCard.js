@@ -18,7 +18,14 @@ class SmallCard extends Component {
           {section.subsections && section.subsections.map(subsection => (
               <div className="smallCard__theme">
                 <div className="smallCard__theme-title">{subsection.title}</div>
-                <div className="smallCard__theme-content">{subsection.content}</div>
+                <ul className="smallCard__theme-content">
+                  {/* {subsection.content} */}
+                  {subsection.content.map(contentElement => (
+                    <li>
+                      {contentElement}
+                    </li>
+                  ))}
+                </ul>
               </div>
           ))}
           {section.button &&

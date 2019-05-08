@@ -156,11 +156,15 @@ export default {
           subsections: [
             {
               title: "Intégration",
-              content: "Intégration responsive de maquettes.",
+              content: ["Intégration responsive de maquettes.", ],
             },
             {
               title: "Développement Front-end",
-              content: "Initiation à la ligne de commande et Git. Développement d’applications et d’outils javascript. Initiation aux frameworks Javascript (React) et CSS (Bootstrap).",
+              content: [
+                "Initiation à la ligne de commande et Git.",
+                "Développement d’applications et d’outils javascript.",
+                "Initiation aux frameworks Javascript (React) et CSS (Bootstrap).",
+              ],
             },
           ],
         },
@@ -176,11 +180,18 @@ export default {
           subsections: [
             {
               title: "Marketing numérique",
-              content: "La publicité display. Le marketing par mail. Les médias sociaux. Le marketing de contenu. Le développement de la présence en ligne. L'analyse d'audience et de comportement des utilisateurs.",
+              content: [
+                "La publicité display.",
+                "Le marketing par mail.",
+                "Les médias sociaux.",
+                "Le marketing de contenu.",
+                "Le développement de la présence en ligne.",
+                "L'analyse d'audience et de comportement des utilisateurs.",
+              ], 
             },
             {
               title: "SEO",
-              content: "Les moteurs de recherche et le SEO.",
+              content: ["Les moteurs de recherche et le SEO.", ],
             },
           ],
         },
@@ -196,15 +207,29 @@ export default {
           subsections: [
             {
               title: "Gestion de projet",
-              content: "Méthodologies en cascade et agile. Bien cadrer un projet multimédia. Réaliser un cahier des charges.",
+              content: [
+              "Méthodologies en cascade et agile.",
+              "Bien cadrer un projet multimédia.",
+              "Réaliser un cahier des charges.",
+              ],
             },
             {
               title: "Développement",
-              content: "Conception de site web avec HTML5 et CSS3, avec PHP et MySQL. Les solutions CMS, notamment WordPress. Intégration de maquettes. Le Responsive Web Design. Bootstrap. JavaScript. jQuery. Gestion du code avec Git et GitHub. Analyse logicielle avec UML.",
+              content: [
+                "Conception de site web avec HTML5 et CSS3, avec PHP et MySQL.",
+                "Les solutions CMS, notamment WordPress.",
+                "Intégration de maquettes.",
+                "Le Responsive Web Design.",
+                "Gestion du code avec Git et GitHub.",
+                "Analyse logicielle avec UML.",
+              ], 
             },
             {
               title: "Marketing et communication",
-              content: "Veille informationnelle. Référencement naturel.",
+              content: [
+                "Veille informationnelle.",
+                "Référencement naturel.",
+              ],
             },
           ],
         },
@@ -220,15 +245,22 @@ export default {
           subsections: [
             {
               title: "Général",
-              content: "Réaliser un cahier des charges.",
+              content: ["Réaliser un cahier des charges.", ],
             },
             {
               title: "Apex",
-              content: "Gestion du code avec Git et GitHub. Analyse logicielle avec UML.",
+              content: [
+                "Gestion du code avec Git et GitHub.",
+                "Analyse logicielle avec UML.",
+              ], 
             },
             {
               title: "Intégration",
-              content: "Veille informationnelle. Référencement naturel.",
+              content: [
+                "Conception de site web avec HTML5 et CSS3, avec PHP et MySQL.",
+                "Les solutions CMS, notamment WordPress.",
+                "Intégration de maquettes.",
+              ], 
             },
           ],
         },
