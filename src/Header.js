@@ -8,13 +8,11 @@ class Header extends Component {
         <div className="header__content">
           <div className="header__content-left">
             <h2 className="header__content-site">Portfolio</h2>
-            <br/>
             <h1 className="header__content-name">Nelly Martin</h1>
           </div>
           <div className="header__content-right">
-            <span>nelly.m@rtin.tech</span>
-            <br/>
-            <span>06 62 79 82 68</span>
+            <p>nelly.m@rtin.tech</p>
+            <p>06 62 79 82 68</p>
           </div>
         </div>
       </div>
