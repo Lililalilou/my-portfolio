@@ -45,6 +45,10 @@ export default {
             alt: "Zoom sur la grille du jeu.",
           },
           content: "Objectif : afficher et mettre à jour une grille d'éléments de couleurs différentes, pouvoir réaliser des combinaisons d'éléments avec des échanges de cases, délimités par des règles simples de jeu et pouvoir comptabiliser des points en fonction des types de combinaisons. \nProjet réalisé en JavaScript (ES6) avec Vue.js . Application créée avec create-vue-app.",
+          button: {
+            title: "Voir le jeu",
+            url: "https://lililalilou.github.io/puzzle-game/",
+          },
           labels: ["Vue.js",],
         },
         {
