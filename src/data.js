@@ -70,7 +70,7 @@ export default {
           },
           button: {
             title: "Voir le site",
-            url: "nelly-martin.com/chaletsetcaviar",
+            url: "http://nelly-martin.com/chaletsetcaviar",
           },
           list: [
             "Adapter un thème Wordpress pour respecter les exigences du client.",
@@ -87,7 +87,7 @@ export default {
           },
           button: {
             title: "Voir le site",
-            url: "nelly-martin.com/site_lesfilmsdepleinair",
+            url: "http://nelly-martin.com/site_lesfilmsdepleinair",
           },
           list: [
             "Lister les fonctionnalités demandées par un client.",
@@ -131,7 +131,7 @@ export default {
           },
           button: {
             title: "Voir la demo",
-            url: "nelly-martin.com/jeu_plateau",
+            url: "http://nelly-martin.com/jeu_plateau",
           },
           list: [
             "Concevoir une architecture d'application JavaScript réutilisable.",
@@ -190,7 +190,7 @@ export default {
           },
           button: {
             title: "Voir mon profil",
-            url: "codecademy.com/Lililalilou",
+            url: "http://codecademy.com/Lililalilou",
           },
           subsections: [
             {
@@ -214,7 +214,7 @@ export default {
           },
           button: {
             title: "Voir la certification",
-            url: "docs.google.com/document/d/1cdmogyCQQWOyBnAScXewZBt4f9fl3luKVb44UDj9rbw/edit",
+            url: "http://docs.google.com/document/d/1cdmogyCQQWOyBnAScXewZBt4f9fl3luKVb44UDj9rbw/edit",
           },
           subsections: [
             {
@@ -241,7 +241,7 @@ export default {
           },
           button: {
             title: "Voir les certificats",
-            url: "docs.google.com/presentation/d/1VsFuYaLp0CkLlMp_6wIErgo1L-gH72RA6MKniIGSNZQ/edit#slide=id.g4f2f056954_0_0",
+            url: "http://docs.google.com/presentation/d/1VsFuYaLp0CkLlMp_6wIErgo1L-gH72RA6MKniIGSNZQ/edit#slide=id.g4f2f056954_0_0",
           },
           subsections: [
             {
@@ -279,7 +279,7 @@ export default {
           },
           button: {
             title: "Voir mon profil",
-            url: "trailhead.salesforce.com/fr/me/0052J000008ahBlQAI",
+            url: "http://trailhead.salesforce.com/fr/me/0052J000008ahBlQAI",
           },
           subsections: [
             {

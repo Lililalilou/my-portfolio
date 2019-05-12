@@ -39,11 +39,6 @@
   }
 
   &__button {
-    background-color: $color-primary;
-    color: $color-light;
-    font-size: 16px;
-    padding: $spacing-light $spacing-medium;
-    border-radius: 6px;
     margin: 0 $spacing-light;
     &:first-child {
       margin-left: 0;

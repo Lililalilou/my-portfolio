@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from './Button';
 import './SmallCard.scss';
 //import data from './data';
 
@@ -28,9 +29,9 @@ class SmallCard extends Component {
                 </ul>
               </div>
           ))}
-          {section.button &&
-            <button className="smallCard__button" src={section.button.url}>{section.button.title}</button>
-          }
+          {section.button && (
+            <Button button={section.button} />
+          )}
         </div>
 
       </div>

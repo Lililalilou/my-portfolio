@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from './Button';
 import './Card.scss';
 //import data from './data';
 
@@ -22,16 +23,16 @@ class Card extends Component {
               <p>{value}</p>
             ))}
             {section.list && section.list.map(listElement => (
-                    <li>
-                      {listElement}
-                    </li>
-                  ))}
+              <li>
+                {listElement}
+              </li>
+            ))}
           </div>
 
           <div className="card__options">
-            {section.button &&
-              <button className="card__button" src={section.button.url}>{section.button.title}</button>
-            }
+            {section.button && (
+              <Button button={section.button} className="card__button" />
+            )}
 
             {section.labels && section.labels.map(label => (
               <div className="card__label">{label}</div>

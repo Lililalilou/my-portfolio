@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import Button from './Button';
 import './About.scss';
-//import data from './data';
 
 class About extends Component {
   render() {
@@ -14,11 +14,11 @@ class About extends Component {
         </div>
         <div className="about__options">
           {category.labels && category.labels.map(label => (
-              <div className="about__label">{label}</div>
+            <div className="about__label">{label}</div>
           ))}
-          {category.buttons && category.buttons.map(button => (
-              <button className="about__button" src={button.url}>{button.title}</button>
-          ))}
+          {category.buttons && category.buttons.map((button) =>
+            <Button button={button} />
+          )}
         </div>
       </div>
     );
