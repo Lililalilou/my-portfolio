@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import {TinyButton as ScrollUpButton} from 'react-scroll-up-button';
+import ScrollUpButton from 'react-scroll-up-button';
 import data from './data';
 import Header from './Header';
 import Menu from './Menu';
 import Main from './Main';
 import './App.scss';
+import './ScrollUpButton.scss';
 
 class App extends Component {
   render() {
@@ -14,7 +15,12 @@ class App extends Component {
           <Header />
           <Menu categories={data.categories} />
           <Main categories={data.categories} />
-          <ScrollUpButton />
+          <ScrollUpButton
+            style={{
+              backgroundColor: '',
+            }}
+          >
+          </ScrollUpButton>
         </div>
       </div>
     );
