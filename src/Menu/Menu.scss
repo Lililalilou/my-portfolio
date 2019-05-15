@@ -1,6 +1,9 @@
 @import '../variables.scss';
 
 .menu {
+  @media screen and (max-width: 780px) {
+    display: none;
+  }
   background-color: $color-light;
   list-style-type: none;
   text-align: center;

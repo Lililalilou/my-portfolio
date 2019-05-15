@@ -2,24 +2,38 @@
 
 .smallCard {
   margin: $spacing-heavy auto;
-  display: flex;
+  @media screen and (min-width: 781px) {
+    display: flex;
+  }
 
   &__aside {
-    width: 35%;
+    width: 250px;
+    margin-right: $spacing-medium;
+    @media screen and (max-width: 780px) {
+      width: 100%;
+    }
   }
 
   &__image {
     text-align: right;
-    margin-right: $spacing-heavy;
+    @media screen and (max-width: 780px) {
+      text-align: center;
+    }
     img {
       border-radius: 4px;
-      max-width: 250px;
+      width: 100%;
+      @media screen and (max-width: 780px) {
+        width: auto;
+        max-width: 100%;
+        max-height: 200px;
+      }
     }
   }
 
   &__body {
-    color: $color-dark;
-    width: 65%;
+    @media screen and (max-width: 780px) {
+      width: 100%;
+    }
   }
 
   &__theme {

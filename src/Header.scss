@@ -5,7 +5,10 @@
   color: $color-light;
 
   &__content {
-    width: 980px;
+    @media screen and (max-width: 780px) {
+      padding: $spacing-medium $spacing-light;
+    }
+    max-width: 980px;
     margin: 0 auto;
     display: flex;
     padding: $spacing-heavy $spacing-heavy;
@@ -34,6 +37,10 @@
   }
 
   &__content-name {
+    @media screen and (max-width: 780px) {
+      font-size: 28px;
+      margin-top: $spacing-light;
+    }
     font-weight: 300;
     font-size: 36px;
     margin-top: 0;

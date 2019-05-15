@@ -8,7 +8,7 @@ class Contact extends Component {
     return (
       <div className="contact">
         <div className="contact__content">
-          <p>Par mail : {category.personalData.mail}</p>
+          <p>Par mail : {category.personalData.email}</p>
           <p>Par téléphone : {category.personalData.phone}</p>
         </div>
       </div>

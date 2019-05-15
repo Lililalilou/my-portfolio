@@ -1,10 +1,15 @@
 @import './variables.scss';
 
 .button {
+    @media screen and (max-width: 780px) {
+        margin: $spacing-light 5px;
+    }
+    display: inline-block;
     background-color: $color-primary;
     color: $color-light;
     font-size: 16px;
     margin: $spacing-medium $spacing-light;
     padding: $spacing-light $spacing-medium;
     border-radius: 6px;
+    border: 2px solid $color-primary;
 }
