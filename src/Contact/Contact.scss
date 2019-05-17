@@ -1,0 +1,12 @@
+@import '../variables.scss';
+
+.contact {
+  &__content {
+    @media screen and (max-width: 800px) {
+      width: 100%;
+      text-align: center;
+    }
+    width: 30%;
+    margin: $spacing-medium auto;
+  }
+}
