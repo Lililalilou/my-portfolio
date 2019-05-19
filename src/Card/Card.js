@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Button from '../Button';
+import Label from '../Label';
 
 class Card extends Component {
   render() {
@@ -28,7 +29,7 @@ class Card extends Component {
               <Button button={section.button} className="card__button" />
             )}
             {section.labels && section.labels.map(label => (
-              <div className="card__label">{label}</div>
+              <Label label={label} className="card__label" />
             ))}
           </div>
         </div>

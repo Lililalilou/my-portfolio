@@ -17,7 +17,7 @@ class Button extends Component {
       </button>
     );
   }
-}
+};
 
 Button.defaultProps = {
   className: '',

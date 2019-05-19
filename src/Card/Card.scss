@@ -63,12 +63,6 @@
   }
 
   &__label {
-    display: inline-block;
-    color: $color-primary;
-    border: 2px solid $color-primary;
-    border-radius: 4px;
-    margin: 5px $spacing-light;
-    padding: $spacing-light $spacing-medium;
     &:first-child {
       margin-left: 0;
     }
