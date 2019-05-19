@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Button from '../Button';
+import Label from '../Label';
 
 class About extends Component {
   render() {
@@ -13,7 +14,7 @@ class About extends Component {
         </div>
         <div className="about__options">
           {category.labels && category.labels.map(label => (
-            <div className="about__label">{label}</div>
+            <Label label={label} />
           ))}
           {category.buttons && category.buttons.map((button) =>
             <Button button={button} />
